@@ -78,9 +78,18 @@ if (session_status() == PHP_SESSION_NONE) {
 
         <li class="nav-item">
           <a href="daily.php" class="nav-link">
-            <i class="nav-icon fas fa-cog"></i>
+            <i class="nav-icon fas fa-list"></i>
             <p>
               Daily Entry Record
+            </p>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="report.php" class="nav-link">
+            <i class="nav-icon fas fa-chart-pie"></i>
+            <p>
+              Reports
             </p>
           </a>
         </li>
