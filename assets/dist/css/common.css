@@ -1,0 +1,27 @@
+    /* Remove the email icon or background image from input[type="email"] fields */
+    input[type="email"] {
+        background-image: none !important;
+        -webkit-appearance: none !important;
+        -moz-appearance: none !important;
+        appearance: none !important;
+    }
+
+    input[type="email"]::-webkit-input-placeholder {
+        background: none !important;
+    }
+
+    input[type="email"]::-moz-placeholder {
+        background: none !important;
+    }
+
+    input[type="email"]:-ms-input-placeholder {
+        background: none !important;
+    }
+
+    input[type="email"]::-ms-input-placeholder {
+        background: none !important;
+    }
+
+    input[type="email"]::placeholder {
+        background: none !important;
+    }
